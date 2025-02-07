@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://demoqa.com/",
+  "apiPath": {
+    "books": {
+      "getBook": "/BookStore/v1/Books"
+    }
+  }
+}
