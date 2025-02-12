@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://demoqa.com/",
+  "apiPath": {
+    "books": {
+      "getBook": "/BookStore/v1/Books",
+      "addListOfBooks": "/BookStore/v1/Books"
+    },
+    "users": {
+      "createUser": "/Account/v1/User",
+      "getUser": "/Account/v1/User",
+      "token": "/Account/v1/GenerateToken",
+      "authorized": "/Account/v1/Authorized"
+    }
+  }
+}

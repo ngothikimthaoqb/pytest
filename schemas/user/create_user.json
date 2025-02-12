@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+      "userID": {
+        "type": "string"
+      },
+      "username": {
+        "type": "string"
+      },
+      "books": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "author": {
+              "type": "string"
+            },
+            "isbn": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
