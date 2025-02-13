@@ -1,43 +1,45 @@
+## Install and Run Instructions
+### Prerequisites
+  - Python 3.x: Ensure Python 3.x is installed.
+  - pip: A Python package manager.
+### Environment Setup
+  - For Windows, create a virtual environment:
+    ```shell
+      python -m venv env
+      env\Scripts\activate
+    ```
+  - Install required libraries:
+    ```shell pip install -r requirements.txt ```
 
-## Install and run
-- Python 3.x
-- `pip` for package management
-- Create env for Win
-  - python -m venv env
-  - env\Scripts\activate 
-- Install libs: `pip install -r requirements.txt`
-- Run:
-  - By specific test: `pytest tests/test_book.py`
-  - By folder tests: `pytest tests/`
-  - By tags: `pytest -m SMOKE`
+### Running Tests
+  - Specific Test File:
+    ```shell pytest tests/test_book.py ```
+  - Test Folder:
+    ```shell pytest tests/ ```
+  - By tags:
+    ```shell pytest -m SMOKE ```
+  - Run in Parallel:
+    ```shell pytest -n 2 -m SMOKE ```    
   - Run options:
-    - pytest --ff option: all tests will be run but the first previous failures will be executed first
-    - pytest --showlocals     # show local variables in tracebacks
-    - pytest -l               # show local variables (shortcut)
-    - pytest --no-showlocals  # hide local variables (if addopts enables them)
-    - pytest --capture=fd  # default, capture at the file descriptor level
-    - pytest --capture=sys # capture at the sys level
-    - pytest --capture=no  # don't capture
-    - pytest -s            # don't capture (shortcut)
-    - pytest --capture=tee-sys # capture to logs but also output to sys level streams
-    - pytest --tb=auto    # (default) 'long' tracebacks for the first and last
-    - pytest --tb=long    # exhaustive, informative traceback formatting
-    - pytest --tb=short   # shorter traceback format
-    - pytest --tb=line    # only one line per failure
-    - pytest --tb=native  # Python standard library formatting
-    - pytest --tb=no      # no traceback at all
+    --ff: Run previously failed tests first.
+    -l, --showlocals: Show local variables in tracebacks.
+    --capture=fd: Capture outputs at file descriptor level.
+    --tb=short: Use a shorter traceback format.
 
-- Reports:
-  - Config allure report:
-    `[pytest]`
-    `addopts = --alluredir=./allure-results`
-    `allure_features = allure`
-  - Read report:
-    `allure serve /path/to/results`
+## Reports
+  - Modify the pytest configuration file:
+    ```shell 
+    [pytest]
+    addopts = --alluredir=./allure-results 
+    ```   
+  - To view the report locally:
+    ```shell allure serve /path/to/results ```    
 
 ## Project structure
 
     pytest_api_automation/
+    ├── .github/workflow         # Configuration CI/CD, run in parallel and publish report to github page    
+    │   ├── python-test.yml      
     │
     ├── configs/                 # Configuration files for different environments (dev, test, prod)
     │   ├── __init__.py
@@ -71,3 +73,14 @@
     ├── requirements.txt         # Python dependencies for the project
     │
     └── pytest.ini               # Pytest configuration settings
+
+## CI/CD 
+ - Use github action at https://github.com/ngothikimthaoqb/pytest/actions
+ - Run:
+    - Automatically: 
+      - New commit merge to master
+      - At 2 AM on the first day of every month, UTC time
+    - Manually: User can input tag and number of CPUs to run parallel
+ - Reporting: Allure reports are published on https://ngothikimthaoqb.github.io/pytest/
+
+This README provides an exhaustive guide on setting up, running, and managing your Python testing environment using pytest. This setup ensures a robust testing framework that can be automatically or manually triggered within a CI/CD pipeline, enhancing code quality and project maintenance.

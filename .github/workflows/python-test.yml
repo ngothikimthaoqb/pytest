@@ -15,6 +15,8 @@ on:
         description: 'Number of CPUs (e.g., 1,2,3..)'
         required: true
         default: 1
+  schedule:
+    - cron: '0 2 1 * *' # Executes at 2 AM on the first day of every month, UTC time
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,7 +38,7 @@ jobs:
     - name: Set up Java 11 (Required for Allure)
       uses: actions/setup-java@v2
       with:
-        distribution: 'temurin'  # Use Adoptium Temurin distribution
+        distribution: 'temurin'
         java-version: '11'
     
     - name: Install Allure CLI
