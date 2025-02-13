@@ -31,21 +31,15 @@ jobs:
         distribution: 'temurin'  # Use Adoptium Temurin distribution
         java-version: '11'
     
-    - name: Install and Configure Allure CLI
+    - name: Install Allure CLI
       run: |
-        # Install required packages
         sudo apt-get update
         sudo apt-get install -y wget
-        # Download Allure Command Line Interface
         wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.17.2/allure-commandline-2.17.2.tgz
-        # Extract Allure CLI
         sudo tar -zxvf allure-commandline-2.17.2.tgz -C /opt/
-        # Environment variable configuration
-        echo "export PATH=/opt/allure-2.17.2/bin:$PATH" >> $GITHUB_ENV
-        
-    - name: Check Allure Version
-      run: |
-        allure --version
+
+    - name: Check Allure Version Directly
+      run: /opt/allure-2.17.2/bin/allure --version
 
     - name: Test with pytest and generate results for Allure
       run: |
