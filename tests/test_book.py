@@ -1,12 +1,11 @@
 import pytest
 
-from utils import config
 from utils.json_schema_validator import verify_json_schema, load_json_data
 
-@pytest.mark.usefixtures("api")
+@pytest.mark.usefixtures("api", "config")
 @pytest.mark.SMOKE
 class TestBook:
-    def test_get_book_positive(self, api):
+    def test_get_book_positive(self, api, config):
         response = api.get(config["apiPath"]["books"]["getBook"])
         assert response.status_code == 200
 

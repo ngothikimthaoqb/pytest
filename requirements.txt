@@ -3,4 +3,5 @@ requests
 pytest-html
 allure-pytest
 jsonschema
+pytest-xdist
 # pip install -r requirements.txt

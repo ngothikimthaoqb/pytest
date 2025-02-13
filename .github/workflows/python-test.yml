@@ -6,7 +6,15 @@ on:
   pull_request:
     branches: master
   workflow_dispatch:
-
+    inputs:
+      tag:
+        description: 'Enter the pytest marker tag to use (e.g., SMOKE, REGRESSION)'
+        required: true
+        default: 'SMOKE'
+      thread_parallel:
+        description: 'Number of CPUs (e.g., 1,2,3..)'
+        required: true
+        default: 1
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,7 +51,7 @@ jobs:
 
     - name: Test with pytest and generate results for Allure
       run: |
-        pytest -m SMOKE --alluredir=/tmp/allure-results
+        pytest -n ${{ github.event.inputs.thread_parallel}} -m ${{ github.event.inputs.tag }}  --alluredir=/tmp/allure-results
     
     - name: Generate Allure report
       run: |

@@ -10,10 +10,8 @@ def load_json_data(file_path):
         return json.load(f)
    
 
-def verify_json_schema(response_data, expected_schema):
+def verify_json_schema(response_data, expected_schema, logger):
     try:
         validate(instance=response_data, schema=expected_schema)
-        print("JSON Schema validation passed.")
     except ValidationError as ve:
-        print("JSON Schema validation failed.")
         raise AssertionError(f"JSON Schema Validation Error: {ve.message}")

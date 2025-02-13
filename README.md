@@ -5,8 +5,8 @@
 - Create env for Win
   - python -m venv env
   - env\Scripts\activate 
-
-- Run 
+- Install libs: `pip install -r requirements.txt`
+- Run:
   - By specific test: `pytest tests/test_book.py`
   - By folder tests: `pytest tests/`
   - By tags: `pytest -m SMOKE`
