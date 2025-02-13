@@ -10,7 +10,7 @@ def load_json_data(file_path):
         return json.load(f)
    
 
-def verify_json_schema(response_data, expected_schema, logger):
+def verify_json_schema(response_data, expected_schema):
     try:
         validate(instance=response_data, schema=expected_schema)
     except ValidationError as ve:

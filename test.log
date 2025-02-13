@@ -1,0 +1,31 @@
+2025-02-13 14:33:30,876 - INFO - Configuration loaded successfully
+2025-02-13 14:33:30,876 - INFO - Logging is configured, and configuration is loaded.
+2025-02-13 14:33:30,879 - INFO - Test session is starting
+2025-02-13 14:33:31,016 - INFO - Setting up for test: test_creat_user_invalid_2025-02-13 14:33:31,019 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:32025-02-13 14:33:33,071 - DEBUG - https://demoqa.com:443 "POST /Account/v1/User HTTP/1.1" 201 88
+2025-02-13 14:33:33,072 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:34,531 - DEBUG - https://demoqa.com:443 "POST /Account/v1/GenerateToken HTTP/1.1" 200 286
+2025-02-13 14:33:34,532 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:35,557 - DEBUG - https://demoqa.com:443 "POST /Account/v1/Authorized HTTP/1.1" 200 4
+2025-02-13 14:33:35,561 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:36,639 - DEBUG - https://demoqa.com:443 "POST /Account/v1/User HTTP/1.1" 400 230
+2025-02-13 14:33:36,641 - INFO - Tearing down af2025-02-13 14:33:36,685 - DEBUG - https://demoqa.com:443 "POST /Account/v1/Authorized HTTP/1.1" 200 4
+2025-02-13 14:33:36,692 - INFO - Tearing down after test: test_creat_user_possitive
+2025-02-13 14:33:36,703 -2025-02-13 14:33:38,431 - DEBUG - https://demoqa.com:443 "POST /Account/v1/User HTTP/1.1" 201 88
+2025-02-13 14:33:38,433 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:39,874 - DEBUG - https://demoqa.com:443 "POST /Account/v1/GenerateToken HTTP/1.1" 200 286
+2025-02-13 14:33:39,877 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:40,941 - DEBUG - https://demoqa.com:443 "POST /Account/v1/Authorized HTTP/1.1" 200 4
+2025-02-13 14:33:40,943 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:43,369 - DEBUG - https://demoqa.com:443 "POST /Account/v1/GenerateToken HTTP/1.1" 200 286
+2025-02-13 14:33:43,374 - INFO - Tearing down after test: test_get_token_positive
+2025-02-13 14:33:43,385 - INFO - Setting up for test: test_authorized_positive
+2025-02-13 14:33:43,386 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:44,782 - DEBUG - https://demoqa.com:443 "POST /Account/v1/User HTTP/1.1" 201 88
+2025-02-13 14:33:44,784 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:46,248 - DEBUG - https://demoqa.com:443 "POST /Account/v1/GenerateToken HTTP/1.1" 200 286
+2025-02-13 14:33:46,251 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:47,447 - DEBUG - https://demoqa.com:443 "POST /Account/v1/Authorized HTTP/1.1" 200 4
+2025-02-13 14:33:47,450 - DEBUG - Starting new HTTPS connection (1): demoqa.com:443
+2025-02-13 14:33:48,690 - DEBUG - https://demoqa.com:443 "POST /Account/v1/Authorized HTTP/1.1" 200 4
+2025-02-13 14:33:48,691 - INFO - Tearing down after test: test_authorized_positive
