@@ -1,0 +1,74 @@
+{
+  "uid" : "7c8f96f3035fb937",
+  "name" : "test_skip",
+  "fullName" : "tests.test_user.TestUser#test_skip",
+  "historyId" : "0d0fa7dcaf164d2dca8aba80b4076e53",
+  "time" : {
+    "start" : 1739422935146,
+    "stop" : 1739422935146,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/pytest/pytest/tests/test_user.py', 67, 'Skipped: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='no way of currently testing this')"
+  }, {
+    "name" : "tag",
+    "value" : "REGRESSION"
+  }, {
+    "name" : "tag",
+    "value" : "SMOKE"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('api', 'user_data')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1341-146"
+  }, {
+    "name" : "thread",
+    "value" : "2345-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "@pytest.mark.skip(reason='no way of currently testing this')", "SMOKE" ]
+  },
+  "source" : "7c8f96f3035fb937.json",
+  "parameterValues" : [ ]
+}

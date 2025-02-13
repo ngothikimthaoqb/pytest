@@ -1,0 +1,71 @@
+[ {
+  "uid" : "d9925858d1dcd2f2",
+  "name" : "test_authorized_positive",
+  "time" : {
+    "start" : 1739422934836,
+    "stop" : 1739422935144,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c8f96f3035fb937",
+  "name" : "test_skip",
+  "time" : {
+    "start" : 1739422935146,
+    "stop" : 1739422935146,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b158a80ab0b03ff0",
+  "name" : "test_get_token_negative",
+  "time" : {
+    "start" : 1739422932853,
+    "stop" : 1739422933472,
+    "duration" : 619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dd7bcbca49f1426",
+  "name" : "test_get_token_positive",
+  "time" : {
+    "start" : 1739422930927,
+    "stop" : 1739422931496,
+    "duration" : 569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60952793fe77aa9b",
+  "name" : "test_creat_user_invalid_pass_negative",
+  "time" : {
+    "start" : 1739422929378,
+    "stop" : 1739422929613,
+    "duration" : 235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf92ce02ad86c629",
+  "name" : "test_get_book_positive",
+  "time" : {
+    "start" : 1739422926173,
+    "stop" : 1739422926463,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9eca55a1d77a81f5",
+  "name" : "test_creat_user_possitive",
+  "time" : {
+    "start" : 1739422927964,
+    "stop" : 1739422927967,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
