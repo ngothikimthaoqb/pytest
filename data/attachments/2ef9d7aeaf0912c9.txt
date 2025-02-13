@@ -2,7 +2,7 @@ INFO     conftest:conftest.py:65 Setting up for test: test_get_token_negative
 DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): demoqa.com:443
 DEBUG    urllib3.connectionpool:connectionpool.py:544 https://demoqa.com:443 "POST /Account/v1/User HTTP/1.1" 201 88
 DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): demoqa.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:544 https://demoqa.com:443 "POST /Account/v1/GenerateToken HTTP/1.1" 200 286
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://demoqa.com:443 "POST /Account/v1/GenerateToken HTTP/1.1" 200 288
 DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): demoqa.com:443
 DEBUG    urllib3.connectionpool:connectionpool.py:544 https://demoqa.com:443 "POST /Account/v1/Authorized HTTP/1.1" 200 4
 DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): demoqa.com:443
