@@ -9,17 +9,27 @@
       env\Scripts\activate
     ```
   - Install required libraries:
-    ```shell pip install -r requirements.txt ```
+    ```
+    shell pip install -r requirements.txt 
+    ```
 
 ### Running Tests
   - Specific Test File:
-    ```shell pytest tests/test_book.py ```
+    ```
+    shell pytest tests/test_book.py 
+    ```
   - Test Folder:
-    ```shell pytest tests/ ```
+    ```shell 
+    pytest tests/ 
+    ```
   - By tags:
-    ```shell pytest -m SMOKE ```
+    ```shell 
+    pytest -m SMOKE 
+    ```
   - Run in Parallel:
-    ```shell pytest -n 2 -m SMOKE ```    
+    ```shell 
+    pytest -n 2 -m SMOKE 
+    ```    
   - Run options:
     --ff: Run previously failed tests first.
     -l, --showlocals: Show local variables in tracebacks.
@@ -33,7 +43,9 @@
     addopts = --alluredir=./allure-results 
     ```   
   - To view the report locally:
-    ```shell allure serve /path/to/results ```    
+    ```shell 
+    allure serve /path/to/results 
+    ```    
 
 ## Project structure
 
