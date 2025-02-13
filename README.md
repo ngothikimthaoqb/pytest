@@ -5,12 +5,12 @@
 ### Environment Setup
   - For Windows, create a virtual environment:
     ```shell
-      python -m venv env
-      env\Scripts\activate
+    python -m venv env
+    env\Scripts\activate
     ```
   - Install required libraries:
-    ```
-    shell pip install -r requirements.txt 
+    ```shell 
+    pip install -r requirements.txt 
     ```
 
 ### Running Tests
@@ -31,10 +31,10 @@
     pytest -n 2 -m SMOKE 
     ```    
   - Run options:
-    --ff: Run previously failed tests first.
-    -l, --showlocals: Show local variables in tracebacks.
-    --capture=fd: Capture outputs at file descriptor level.
-    --tb=short: Use a shorter traceback format.
+    - --ff: Run previously failed tests first.
+    - -l, --showlocals: Show local variables in tracebacks.
+    - --capture=fd: Capture outputs at file descriptor level.
+    - --tb=short: Use a shorter traceback format.
 
 ## Reports
   - Modify the pytest configuration file:
