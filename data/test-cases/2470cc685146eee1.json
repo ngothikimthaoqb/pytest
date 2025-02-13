@@ -1,12 +1,12 @@
 {
-  "uid" : "3ba95fb35725120c",
-  "name" : "test_get_book_positive",
-  "fullName" : "tests.test_book.TestBook#test_get_book_positive",
-  "historyId" : "92f60012c6e6ad6dcf492f3e007fbde2",
+  "uid" : "2470cc685146eee1",
+  "name" : "test_creat_user_possitive",
+  "fullName" : "tests.test_user.TestUser#test_creat_user_possitive",
+  "historyId" : "cb78069efa623cfbbe61bafc3eff945a",
   "time" : {
-    "start" : 1739432892632,
-    "stop" : 1739432894510,
-    "duration" : 1878
+    "start" : 1739433155469,
+    "stop" : 1739433155472,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,40 +16,25 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "user_data",
+    "time" : {
+      "start" : 1739433152183,
+      "stop" : 1739433155469,
+      "duration" : 3286
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "api",
     "time" : {
-      "start" : 1739432892631,
-      "stop" : 1739432892631,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "config",
-    "time" : {
-      "start" : 1739432892631,
-      "stop" : 1739432892631,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1739432892631,
-      "stop" : 1739432892631,
+      "start" : 1739433152183,
+      "stop" : 1739433152183,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,11 +50,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fb3abeac5b5492da",
+      "uid" : "d7b558c31b2219e0",
       "name" : "log",
-      "source" : "fb3abeac5b5492da.txt",
+      "source" : "d7b558c31b2219e0.txt",
       "type" : "text/plain",
-      "size" : 383
+      "size" : 844
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -77,28 +62,46 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
-  "afterStages" : [ ],
+  "afterStages" : [ {
+    "name" : "user_data::0",
+    "time" : {
+      "start" : 1739433155473,
+      "stop" : 1739433155473,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "REGRESSION"
+  }, {
     "name" : "tag",
     "value" : "SMOKE"
   }, {
     "name" : "tag",
-    "value" : "@pytest.mark.usefixtures('api', 'config')"
+    "value" : "@pytest.mark.usefixtures('api', 'user_data')"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_book"
+    "value" : "test_user"
   }, {
     "name" : "subSuite",
-    "value" : "TestBook"
+    "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "fv-az1939-440"
+    "value" : "fv-az1441-723"
   }, {
     "name" : "thread",
-    "value" : "2327-MainThread"
+    "value" : "2338-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -107,7 +110,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_book"
+    "value" : "tests.test_user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -120,8 +123,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "@pytest.mark.usefixtures('api', 'config')", "SMOKE" ]
+    "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "SMOKE" ]
   },
-  "source" : "3ba95fb35725120c.json",
+  "source" : "2470cc685146eee1.json",
   "parameterValues" : [ ]
 }
