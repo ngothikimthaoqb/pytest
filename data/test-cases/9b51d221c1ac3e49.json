@@ -1,12 +1,12 @@
 {
-  "uid" : "3bac8695f818b28e",
+  "uid" : "9b51d221c1ac3e49",
   "name" : "test_creat_user_invalid_pass_negative",
   "fullName" : "tests.test_user.TestUser#test_creat_user_invalid_pass_negative",
   "historyId" : "7dd61cd9095a19bbaefd4c7ce19c4b7e",
   "time" : {
-    "start" : 1739433157514,
-    "stop" : 1739433157761,
-    "duration" : 247
+    "start" : 1739436342911,
+    "stop" : 1739436343319,
+    "duration" : 408
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,11 +16,11 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api",
+    "name" : "user_data",
     "time" : {
-      "start" : 1739433155475,
-      "stop" : 1739433155475,
-      "duration" : 0
+      "start" : 1739436339421,
+      "stop" : 1739436342911,
+      "duration" : 3490
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,11 +31,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "user_data",
+    "name" : "api",
     "time" : {
-      "start" : 1739433155475,
-      "stop" : 1739433157513,
-      "duration" : 2038
+      "start" : 1739436339421,
+      "stop" : 1739436339421,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e08f6e6b5261f2cf",
+      "uid" : "39f7a117973b8ceb",
       "name" : "log",
-      "source" : "e08f6e6b5261f2cf.txt",
+      "source" : "39f7a117973b8ceb.txt",
       "type" : "text/plain",
       "size" : 1091
     } ],
@@ -65,8 +65,8 @@
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1739433157762,
-      "stop" : 1739433157762,
+      "start" : 1739436343320,
+      "stop" : 1739436343320,
       "duration" : 0
     },
     "status" : "passed",
@@ -98,10 +98,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "fv-az1441-723"
+    "value" : "fv-az792-480"
   }, {
     "name" : "thread",
-    "value" : "2338-MainThread"
+    "value" : "2341-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -125,6 +125,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "SMOKE" ]
   },
-  "source" : "3bac8695f818b28e.json",
+  "source" : "9b51d221c1ac3e49.json",
   "parameterValues" : [ ]
 }

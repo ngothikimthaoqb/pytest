@@ -1,69 +1,18 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1441-723",
+    "name" : "fv-az792-480",
     "children" : [ {
-      "name" : "2338-MainThread",
+      "name" : "2341-MainThread",
       "children" : [ {
-        "name" : "test_get_token_positive",
-        "uid" : "ac536fc42c3080c7",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1739433159618,
-          "stop" : 1739433160625,
-          "duration" : 1007
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_token_negative",
-        "uid" : "7a210de6bce26975",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1739433162729,
-          "stop" : 1739433163979,
-          "duration" : 1250
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_creat_user_invalid_pass_negative",
-        "uid" : "3bac8695f818b28e",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
+        "uid" : "9b51d221c1ac3e49",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
         "status" : "passed",
         "time" : {
-          "start" : 1739433157514,
-          "stop" : 1739433157761,
-          "duration" : 247
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_creat_user_possitive",
-        "uid" : "2470cc685146eee1",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1739433155469,
-          "stop" : 1739433155472,
-          "duration" : 3
+          "start" : 1739436342911,
+          "stop" : 1739436343319,
+          "duration" : 408
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,12 +23,12 @@
         "parameters" : [ ]
       }, {
         "name" : "test_skip",
-        "uid" : "6e1fb62b1699fb79",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
+        "uid" : "c3c17a6cc322d279",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
         "status" : "skipped",
         "time" : {
-          "start" : 1739433166623,
-          "stop" : 1739433166623,
+          "start" : 1739436350472,
+          "stop" : 1739436350472,
           "duration" : 0
         },
         "flaky" : false,
@@ -90,14 +39,65 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_authorized_positive",
-        "uid" : "f56dc5169edd5ca4",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
+        "name" : "test_get_token_negative",
+        "uid" : "940891835f2e498c",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
         "status" : "passed",
         "time" : {
-          "start" : 1739433166153,
-          "stop" : 1739433166621,
-          "duration" : 468
+          "start" : 1739436347613,
+          "stop" : 1739436348397,
+          "duration" : 784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_token_positive",
+        "uid" : "6094803dbf566eb3",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1739436345097,
+          "stop" : 1739436345926,
+          "duration" : 829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_authorized_positive",
+        "uid" : "9874a0c0d7842bd2",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1739436350077,
+          "stop" : 1739436350470,
+          "duration" : 393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creat_user_possitive",
+        "uid" : "c703a9793a423d7c",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1739436339415,
+          "stop" : 1739436339418,
+          "duration" : 3
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,13 +108,13 @@
         "parameters" : [ ]
       }, {
         "name" : "test_get_book_positive",
-        "uid" : "399f40946040df95",
-        "parentUid" : "202cb6252d669b1f2d8cc3496348a6fb",
+        "uid" : "4906145af70d2c3a",
+        "parentUid" : "8654445af712b8e776e1fedbe29305e3",
         "status" : "passed",
         "time" : {
-          "start" : 1739433151816,
-          "stop" : 1739433152180,
-          "duration" : 364
+          "start" : 1739436336543,
+          "stop" : 1739436337105,
+          "duration" : 562
         },
         "flaky" : false,
         "newFailed" : false,
@@ -124,9 +124,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "202cb6252d669b1f2d8cc3496348a6fb"
+      "uid" : "8654445af712b8e776e1fedbe29305e3"
     } ],
-    "uid" : "94c51d12a99daf69a149da234eae934c"
+    "uid" : "7756731950d21f7c58aa15911ca5c78e"
   } ],
   "name" : "timeline"
 }
