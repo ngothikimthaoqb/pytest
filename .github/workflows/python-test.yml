@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Enter the pytest marker tag to use (e.g., SMOKE, REGRESSION)'
+        description: 'Tag to use (e.g., SMOKE, REGRESSION)'
         required: true
         default: 'SMOKE'
       thread_parallel:
@@ -17,6 +17,7 @@ on:
         default: 1
   schedule:
     - cron: '0 2 1 * *' # Executes at 2 AM on the first day of every month, UTC time
+
 jobs:
   build:
     runs-on: ubuntu-latest

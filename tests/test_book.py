@@ -14,6 +14,4 @@ class TestBook:
         verify_json_schema(books_response, books_expected)
 
 
-
-
     

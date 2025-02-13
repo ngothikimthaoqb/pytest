@@ -3,10 +3,8 @@ import json
 import os
 import logging
 
-
 from utils.api_client import APIClient
 from fixtures.user import user_data
-
 
 @pytest.fixture()
 def api():

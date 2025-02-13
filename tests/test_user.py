@@ -33,7 +33,6 @@ class TestUser:
         error_message = "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
         assert resp.json()["message"] == error_message
 
-
     def test_get_token_positive(self, api, user_data):
         body = {
             "userName": user_data["userName"],
@@ -46,7 +45,6 @@ class TestUser:
         token_expected = load_json_data('../schemas/user/token.json')
         verify_json_schema(token_resp, token_expected)
         assert token_resp['status'] == "Success"
-
 
     def test_get_token_negative(self, api, invalid_user):
         resp = api.post(config["apiPath"]["users"]["token"], invalid_user)

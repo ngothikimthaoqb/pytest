@@ -3,7 +3,6 @@ import pytest
 from utils import config
 from utils.random import generate_random_character, generate_secure_password
 
-
 @pytest.fixture(scope="function")    
 def user_data(api):
     username = f"usertest{generate_random_character(6)}"
