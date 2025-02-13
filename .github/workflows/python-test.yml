@@ -51,7 +51,7 @@ jobs:
 
     - name: Test with pytest and generate results for Allure
       run: |
-        pytest -n ${{github.event.inputs.thread_parallel}} -m ${{github.event.inputs.tag}}  --alluredir=/tmp/allure-results
+        pytest -n ${{github.event.inputs.thread_parallel || '1'}} -m ${{github.event.inputs.tag || 'SMOKE'}}  --alluredir=/tmp/allure-results
     
     - name: Generate Allure report
       run: |
