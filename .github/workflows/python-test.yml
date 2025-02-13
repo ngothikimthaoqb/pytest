@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: master
   workflow_dispatch:
-  
+
 jobs:
   build:
 
@@ -23,6 +23,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Install Allure
+      run: |
+        sudo apt-get install allure
     - name: Test with pytest
       run: |
-        pytest -m SMOKE
+        pytest -m SMOKE --alluredir=/tmp/allure-results
+    - name: Generate Allure report
+      run: |
+        allure generate /tmp/allure-results -o allure-report --clean
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./allure-report
