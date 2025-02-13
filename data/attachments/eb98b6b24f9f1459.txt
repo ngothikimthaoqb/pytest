@@ -1,1 +1,0 @@
-INFO     conftest:conftest.py:69 Tearing down after test: test_skip

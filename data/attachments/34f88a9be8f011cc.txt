@@ -1,4 +1,4 @@
-INFO     conftest:conftest.py:65 Setting up for test: test_get_book_positive
+INFO     conftest:conftest.py:63 Setting up for test: test_get_book_positive
 DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): demoqa.com:443
 DEBUG    urllib3.connectionpool:connectionpool.py:544 https://demoqa.com:443 "GET /BookStore/v1/Books HTTP/1.1" 200 4514
-INFO     conftest:conftest.py:69 Tearing down after test: test_get_book_positive
+INFO     conftest:conftest.py:67 Tearing down after test: test_get_book_positive
