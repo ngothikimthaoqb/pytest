@@ -1,11 +1,11 @@
 {
-  "uid" : "7c8f96f3035fb937",
+  "uid" : "1353ea0e3aa4d1fc",
   "name" : "test_skip",
   "fullName" : "tests.test_user.TestUser#test_skip",
   "historyId" : "0d0fa7dcaf164d2dca8aba80b4076e53",
   "time" : {
-    "start" : 1739422935146,
-    "stop" : 1739422935146,
+    "start" : 1739432920086,
+    "stop" : 1739432920086,
     "duration" : 0
   },
   "status" : "skipped",
@@ -18,6 +18,24 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Skipped: no way of currently testing this",
+    "statusTrace" : "('/home/runner/work/pytest/pytest/tests/test_user.py', 67, 'Skipped: no way of currently testing this')",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62ebdce20abd5f9f",
+      "name" : "log",
+      "source" : "62ebdce20abd5f9f.txt",
+      "type" : "text/plain",
+      "size" : 67
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "tag",
@@ -42,10 +60,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "fv-az1341-146"
+    "value" : "fv-az1939-440"
   }, {
     "name" : "thread",
-    "value" : "2345-MainThread"
+    "value" : "2327-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -69,6 +87,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "@pytest.mark.skip(reason='no way of currently testing this')", "SMOKE" ]
   },
-  "source" : "7c8f96f3035fb937.json",
+  "source" : "1353ea0e3aa4d1fc.json",
   "parameterValues" : [ ]
 }

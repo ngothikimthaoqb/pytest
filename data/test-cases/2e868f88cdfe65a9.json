@@ -1,12 +1,12 @@
 {
-  "uid" : "b158a80ab0b03ff0",
-  "name" : "test_get_token_negative",
-  "fullName" : "tests.test_user.TestUser#test_get_token_negative",
-  "historyId" : "faffb0b087635dbd2700f3c2c04c1515",
+  "uid" : "2e868f88cdfe65a9",
+  "name" : "test_creat_user_possitive",
+  "fullName" : "tests.test_user.TestUser#test_creat_user_possitive",
+  "historyId" : "cb78069efa623cfbbe61bafc3eff945a",
   "time" : {
-    "start" : 1739422932853,
-    "stop" : 1739422933472,
-    "duration" : 619
+    "start" : 1739432904214,
+    "stop" : 1739432904217,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,25 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "invalid_user",
-    "time" : {
-      "start" : 1739422931498,
-      "stop" : 1739422931498,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "api",
     "time" : {
-      "start" : 1739422931499,
-      "stop" : 1739422931499,
+      "start" : 1739432894513,
+      "stop" : 1739432894513,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,9 +33,9 @@
   }, {
     "name" : "user_data",
     "time" : {
-      "start" : 1739422931499,
-      "stop" : 1739422932853,
-      "duration" : 1354
+      "start" : 1739432894513,
+      "stop" : 1739432904214,
+      "duration" : 9701
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,11 +46,27 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d420a74dcea54502",
+      "name" : "log",
+      "source" : "d420a74dcea54502.txt",
+      "type" : "text/plain",
+      "size" : 844
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1739422933473,
-      "stop" : 1739422933473,
+      "start" : 1739432904218,
+      "stop" : 1739432904218,
       "duration" : 0
     },
     "status" : "passed",
@@ -97,10 +98,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "fv-az1341-146"
+    "value" : "fv-az1939-440"
   }, {
     "name" : "thread",
-    "value" : "2345-MainThread"
+    "value" : "2327-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -124,6 +125,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "SMOKE" ]
   },
-  "source" : "b158a80ab0b03ff0.json",
+  "source" : "2e868f88cdfe65a9.json",
   "parameterValues" : [ ]
 }
