@@ -1,12 +1,12 @@
 {
-  "uid" : "eedac5bc92362d1e",
+  "uid" : "eb1dc98af44fbe64",
   "name" : "test_get_book_positive",
   "fullName" : "tests.test_book.TestBook#test_get_book_positive",
   "historyId" : "92f60012c6e6ad6dcf492f3e007fbde2",
   "time" : {
-    "start" : 1739436955255,
-    "stop" : 1739436955598,
-    "duration" : 343
+    "start" : 1740797754780,
+    "stop" : 1740797755258,
+    "duration" : 478
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,10 +16,10 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api",
+    "name" : "pytestconfig",
     "time" : {
-      "start" : 1739436955255,
-      "stop" : 1739436955255,
+      "start" : 1740797754779,
+      "stop" : 1740797754779,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,10 +31,10 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "pytestconfig",
+    "name" : "api",
     "time" : {
-      "start" : 1739436955255,
-      "stop" : 1739436955255,
+      "start" : 1740797754779,
+      "stop" : 1740797754779,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,8 +48,8 @@
   }, {
     "name" : "config",
     "time" : {
-      "start" : 1739436955255,
-      "stop" : 1739436955255,
+      "start" : 1740797754779,
+      "stop" : 1740797754779,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,9 +65,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "34f88a9be8f011cc",
+      "uid" : "c6ad9af568dda312",
       "name" : "log",
-      "source" : "34f88a9be8f011cc.txt",
+      "source" : "c6ad9af568dda312.txt",
       "type" : "text/plain",
       "size" : 383
     } ],
@@ -95,10 +95,10 @@
     "value" : "TestBook"
   }, {
     "name" : "host",
-    "value" : "fv-az1721-502"
+    "value" : "fv-az1043-948"
   }, {
     "name" : "thread",
-    "value" : "2315-MainThread"
+    "value" : "2348-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,6 +122,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('api', 'config')", "SMOKE" ]
   },
-  "source" : "eedac5bc92362d1e.json",
+  "source" : "eb1dc98af44fbe64.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "2c12948c34b5cb09",
+  "uid" : "365e5b57b71c8f1",
   "name" : "test_get_token_positive",
   "fullName" : "tests.test_user.TestUser#test_get_token_positive",
   "historyId" : "faf75d26572e133b13d9c49970d1a423",
   "time" : {
-    "start" : 1739436960212,
-    "stop" : 1739436960845,
-    "duration" : 633
+    "start" : 1740797761345,
+    "stop" : 1740797761987,
+    "duration" : 642
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "user_data",
     "time" : {
-      "start" : 1739436958871,
-      "stop" : 1739436960212,
-      "duration" : 1341
+      "start" : 1740797759798,
+      "stop" : 1740797761344,
+      "duration" : 1546
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,8 +33,8 @@
   }, {
     "name" : "api",
     "time" : {
-      "start" : 1739436958871,
-      "stop" : 1739436958871,
+      "start" : 1740797759798,
+      "stop" : 1740797759798,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,9 +50,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "46e3e2cbf064585c",
+      "uid" : "df64a79bbc5c2cba",
       "name" : "log",
-      "source" : "46e3e2cbf064585c.txt",
+      "source" : "df64a79bbc5c2cba.txt",
       "type" : "text/plain",
       "size" : 1072
     } ],
@@ -65,9 +65,9 @@
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1739436960845,
-      "stop" : 1739436960846,
-      "duration" : 1
+      "start" : 1740797761987,
+      "stop" : 1740797761987,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -98,10 +98,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "fv-az1721-502"
+    "value" : "fv-az1043-948"
   }, {
     "name" : "thread",
-    "value" : "2315-MainThread"
+    "value" : "2348-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -125,6 +125,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "SMOKE" ]
   },
-  "source" : "2c12948c34b5cb09.json",
+  "source" : "365e5b57b71c8f1.json",
   "parameterValues" : [ ]
 }
