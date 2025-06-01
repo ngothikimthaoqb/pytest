@@ -1,12 +1,12 @@
 {
-  "uid" : "965c0edd510f7249",
-  "name" : "test_get_book_positive",
-  "fullName" : "tests.test_book.TestBook#test_get_book_positive",
-  "historyId" : "92f60012c6e6ad6dcf492f3e007fbde2",
+  "uid" : "a9c7cf8af922c351",
+  "name" : "test_creat_user_possitive",
+  "fullName" : "tests.test_user.TestUser#test_creat_user_possitive",
+  "historyId" : "cb78069efa623cfbbe61bafc3eff945a",
   "time" : {
-    "start" : 1746069345056,
-    "stop" : 1746069345619,
-    "duration" : 563
+    "start" : 1748749225361,
+    "stop" : 1748749225364,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,41 +16,26 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "config",
-    "time" : {
-      "start" : 1746069345055,
-      "stop" : 1746069345055,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "pytestconfig",
-    "time" : {
-      "start" : 1746069345055,
-      "stop" : 1746069345055,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "api",
     "time" : {
-      "start" : 1746069345055,
-      "stop" : 1746069345055,
+      "start" : 1748749222940,
+      "stop" : 1748749222940,
       "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "user_data",
+    "time" : {
+      "start" : 1748749222940,
+      "stop" : 1748749225360,
+      "duration" : 2420
     },
     "status" : "passed",
     "steps" : [ ],
@@ -65,11 +50,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "39d5db18278bb226",
+      "uid" : "9abc7a1a93fb2ac5",
       "name" : "log",
-      "source" : "39d5db18278bb226.txt",
+      "source" : "9abc7a1a93fb2ac5.txt",
       "type" : "text/plain",
-      "size" : 383
+      "size" : 844
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -77,28 +62,46 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
-  "afterStages" : [ ],
+  "afterStages" : [ {
+    "name" : "user_data::0",
+    "time" : {
+      "start" : 1748749225364,
+      "stop" : 1748749225365,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "REGRESSION"
+  }, {
     "name" : "tag",
     "value" : "SMOKE"
   }, {
     "name" : "tag",
-    "value" : "@pytest.mark.usefixtures('api', 'config')"
+    "value" : "@pytest.mark.usefixtures('api', 'user_data')"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_book"
+    "value" : "test_user"
   }, {
     "name" : "subSuite",
-    "value" : "TestBook"
+    "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "fv-az1979-346"
+    "value" : "pkrvmf6wy0o8zjz"
   }, {
     "name" : "thread",
-    "value" : "2340-MainThread"
+    "value" : "2722-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -107,7 +110,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_book"
+    "value" : "tests.test_user"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -120,8 +123,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "@pytest.mark.usefixtures('api', 'config')", "SMOKE" ]
+    "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "SMOKE" ]
   },
-  "source" : "965c0edd510f7249.json",
+  "source" : "a9c7cf8af922c351.json",
   "parameterValues" : [ ]
 }
