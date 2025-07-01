@@ -1,12 +1,12 @@
 {
-  "uid" : "331d90343dff805f",
+  "uid" : "a2d69e2b439f1b3a",
   "name" : "test_get_token_positive",
   "fullName" : "tests.test_user.TestUser#test_get_token_positive",
   "historyId" : "faf75d26572e133b13d9c49970d1a423",
   "time" : {
-    "start" : 1748749230139,
-    "stop" : 1748749231056,
-    "duration" : 917
+    "start" : 1751341169829,
+    "stop" : 1751341170605,
+    "duration" : 776
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,11 +16,11 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "api",
+    "name" : "user_data",
     "time" : {
-      "start" : 1748749228084,
-      "stop" : 1748749228084,
-      "duration" : 0
+      "start" : 1751341167649,
+      "stop" : 1751341169829,
+      "duration" : 2180
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,11 +31,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "user_data",
+    "name" : "api",
     "time" : {
-      "start" : 1748749228085,
-      "stop" : 1748749230138,
-      "duration" : 2053
+      "start" : 1751341167649,
+      "stop" : 1751341167649,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fa8e41398fa28555",
+      "uid" : "c2511ddebf5fff38",
       "name" : "log",
-      "source" : "fa8e41398fa28555.txt",
+      "source" : "c2511ddebf5fff38.txt",
       "type" : "text/plain",
       "size" : 1072
     } ],
@@ -65,9 +65,9 @@
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1748749231057,
-      "stop" : 1748749231057,
-      "duration" : 0
+      "start" : 1751341170605,
+      "stop" : 1751341170606,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -85,9 +85,6 @@
     "name" : "tag",
     "value" : "SMOKE"
   }, {
-    "name" : "tag",
-    "value" : "@pytest.mark.usefixtures('api', 'user_data')"
-  }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
@@ -98,10 +95,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "pkrvmf6wy0o8zjz"
+    "value" : "pkrvmbietmlfzoi"
   }, {
     "name" : "thread",
-    "value" : "2722-MainThread"
+    "value" : "2595-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -123,8 +120,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "REGRESSION", "@pytest.mark.usefixtures('api', 'user_data')", "SMOKE" ]
+    "tags" : [ "REGRESSION", "SMOKE" ]
   },
-  "source" : "331d90343dff805f.json",
+  "source" : "a2d69e2b439f1b3a.json",
   "parameterValues" : [ ]
 }
