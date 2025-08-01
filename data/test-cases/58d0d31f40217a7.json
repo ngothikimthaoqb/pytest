@@ -1,12 +1,12 @@
 {
-  "uid" : "5c8fd64515e33926",
-  "name" : "test_creat_user_invalid_pass_negative",
-  "fullName" : "tests.test_user.TestUser#test_creat_user_invalid_pass_negative",
-  "historyId" : "7dd61cd9095a19bbaefd4c7ce19c4b7e",
+  "uid" : "58d0d31f40217a7",
+  "name" : "test_get_book_positive",
+  "fullName" : "tests.test_book.TestBook#test_get_book_positive",
+  "historyId" : "92f60012c6e6ad6dcf492f3e007fbde2",
   "time" : {
-    "start" : 1751341167267,
-    "stop" : 1751341167646,
-    "duration" : 379
+    "start" : 1754020527392,
+    "stop" : 1754020527700,
+    "duration" : 308
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,8 +18,8 @@
   "beforeStages" : [ {
     "name" : "api",
     "time" : {
-      "start" : 1751341165317,
-      "stop" : 1751341165317,
+      "start" : 1754020527391,
+      "stop" : 1754020527391,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,11 +31,26 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "user_data",
+    "name" : "config",
     "time" : {
-      "start" : 1751341165317,
-      "stop" : 1751341167266,
-      "duration" : 1949
+      "start" : 1754020527391,
+      "stop" : 1754020527391,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1754020527391,
+      "stop" : 1754020527391,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,11 +65,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "cdfefc04d9f93000",
+      "uid" : "55184759b3060b7b",
       "name" : "log",
-      "source" : "cdfefc04d9f93000.txt",
+      "source" : "55184759b3060b7b.txt",
       "type" : "text/plain",
-      "size" : 1091
+      "size" : 383
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -62,26 +77,8 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
-  "afterStages" : [ {
-    "name" : "user_data::0",
-    "time" : {
-      "start" : 1751341167647,
-      "stop" : 1751341167647,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  } ],
+  "afterStages" : [ ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "REGRESSION"
-  }, {
     "name" : "tag",
     "value" : "SMOKE"
   }, {
@@ -89,16 +86,16 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_user"
+    "value" : "test_book"
   }, {
     "name" : "subSuite",
-    "value" : "TestUser"
+    "value" : "TestBook"
   }, {
     "name" : "host",
-    "value" : "pkrvmbietmlfzoi"
+    "value" : "pkrvmjbmru5nbw0"
   }, {
     "name" : "thread",
-    "value" : "2595-MainThread"
+    "value" : "2541-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -107,7 +104,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_user"
+    "value" : "tests.test_book"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -120,8 +117,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "REGRESSION", "SMOKE" ]
+    "tags" : [ "SMOKE" ]
   },
-  "source" : "5c8fd64515e33926.json",
+  "source" : "58d0d31f40217a7.json",
   "parameterValues" : [ ]
 }
