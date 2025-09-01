@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "tests",
     "children" : [ {
@@ -8,13 +9,13 @@
         "name" : "TestBook",
         "children" : [ {
           "name" : "test_get_book_positive",
-          "uid" : "58d0d31f40217a7",
+          "uid" : "b22e3671b9ed5783",
           "parentUid" : "5d5dbb1d2412002cceeed3281b92553e",
           "status" : "passed",
           "time" : {
-            "start" : 1754020527392,
-            "stop" : 1754020527700,
-            "duration" : 308
+            "start" : 1756696857428,
+            "stop" : 1756696857822,
+            "duration" : 394
           },
           "flaky" : false,
           "newFailed" : false,
@@ -33,12 +34,12 @@
         "name" : "TestUser",
         "children" : [ {
           "name" : "test_creat_user_possitive",
-          "uid" : "4aab4bb59adf4a9e",
+          "uid" : "b74c1f69997d74f0",
           "parentUid" : "d762a75dcebd1c66c4d65f79f684e3bd",
           "status" : "passed",
           "time" : {
-            "start" : 1754020529541,
-            "stop" : 1754020529544,
+            "start" : 1756696860088,
+            "stop" : 1756696860091,
             "duration" : 3
           },
           "flaky" : false,
@@ -50,13 +51,13 @@
           "parameters" : [ ]
         }, {
           "name" : "test_creat_user_invalid_pass_negative",
-          "uid" : "75e7a0f5b59a9fb7",
+          "uid" : "f50a2c434c3a064d",
           "parentUid" : "d762a75dcebd1c66c4d65f79f684e3bd",
           "status" : "passed",
           "time" : {
-            "start" : 1754020531417,
-            "stop" : 1754020531657,
-            "duration" : 240
+            "start" : 1756696861858,
+            "stop" : 1756696862125,
+            "duration" : 267
           },
           "flaky" : false,
           "newFailed" : false,
@@ -67,13 +68,13 @@
           "parameters" : [ ]
         }, {
           "name" : "test_get_token_positive",
-          "uid" : "c16a8f5452cb5ae1",
+          "uid" : "6d1e7c2c4dfabdb",
           "parentUid" : "d762a75dcebd1c66c4d65f79f684e3bd",
           "status" : "passed",
           "time" : {
-            "start" : 1754020533419,
-            "stop" : 1754020534176,
-            "duration" : 757
+            "start" : 1756696864038,
+            "stop" : 1756696864846,
+            "duration" : 808
           },
           "flaky" : false,
           "newFailed" : false,
@@ -84,13 +85,13 @@
           "parameters" : [ ]
         }, {
           "name" : "test_get_token_negative",
-          "uid" : "f05c6b7338990ee1",
+          "uid" : "b7961e9bfb0b8bdb",
           "parentUid" : "d762a75dcebd1c66c4d65f79f684e3bd",
           "status" : "passed",
           "time" : {
-            "start" : 1754020536482,
-            "stop" : 1754020537283,
-            "duration" : 801
+            "start" : 1756696866854,
+            "stop" : 1756696867591,
+            "duration" : 737
           },
           "flaky" : false,
           "newFailed" : false,
@@ -101,13 +102,13 @@
           "parameters" : [ ]
         }, {
           "name" : "test_authorized_positive",
-          "uid" : "1f7d146670f616cf",
+          "uid" : "f50ea748551d892d",
           "parentUid" : "d762a75dcebd1c66c4d65f79f684e3bd",
           "status" : "passed",
           "time" : {
-            "start" : 1754020538945,
-            "stop" : 1754020539208,
-            "duration" : 263
+            "start" : 1756696869322,
+            "stop" : 1756696869733,
+            "duration" : 411
           },
           "flaky" : false,
           "newFailed" : false,
@@ -118,12 +119,12 @@
           "parameters" : [ ]
         }, {
           "name" : "test_skip",
-          "uid" : "8459ba0a232e871e",
+          "uid" : "4bff5daefd33b217",
           "parentUid" : "d762a75dcebd1c66c4d65f79f684e3bd",
           "status" : "skipped",
           "time" : {
-            "start" : 1754020539210,
-            "stop" : 1754020539210,
+            "start" : 1756696869738,
+            "stop" : 1756696869738,
             "duration" : 0
           },
           "flaky" : false,
@@ -139,6 +140,5 @@
       "uid" : "a39f6d7f21201a1ede4e2fd1c4bd4341"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
-  } ],
-  "name" : "suites"
+  } ]
 }
