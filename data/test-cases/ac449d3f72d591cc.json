@@ -1,11 +1,11 @@
 {
-  "uid" : "4bff5daefd33b217",
+  "uid" : "ac449d3f72d591cc",
   "name" : "test_skip",
   "fullName" : "tests.test_user.TestUser#test_skip",
   "historyId" : "0d0fa7dcaf164d2dca8aba80b4076e53",
   "time" : {
-    "start" : 1756696869738,
-    "stop" : 1756696869738,
+    "start" : 1759288266831,
+    "stop" : 1759288266831,
     "duration" : 0
   },
   "status" : "skipped",
@@ -24,9 +24,9 @@
     "statusTrace" : "('/home/runner/work/pytest/pytest/tests/test_user.py', 65, 'Skipped: no way of currently testing this')",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "cc2cabe38961ff15",
+      "uid" : "d1f41a464d3b7c6c",
       "name" : "log",
-      "source" : "cc2cabe38961ff15.txt",
+      "source" : "d1f41a464d3b7c6c.txt",
       "type" : "text/plain",
       "size" : 67
     } ],
@@ -54,10 +54,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "pkrvmccyg1gnepe"
+    "value" : "runnervm3ublj"
   }, {
     "name" : "thread",
-    "value" : "2695-MainThread"
+    "value" : "2564-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -81,6 +81,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "SMOKE" ]
   },
-  "source" : "4bff5daefd33b217.json",
+  "source" : "ac449d3f72d591cc.json",
   "parameterValues" : [ ]
 }
