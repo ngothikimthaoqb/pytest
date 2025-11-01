@@ -1,69 +1,18 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "runnervm3ublj",
+    "name" : "runnervmf2e7y",
     "children" : [ {
-      "name" : "2564-MainThread",
+      "name" : "2553-MainThread",
       "children" : [ {
         "name" : "test_authorized_positive",
-        "uid" : "5d13a593c13d22e7",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
+        "uid" : "86497a78ef7a3b52",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
         "status" : "passed",
         "time" : {
-          "start" : 1759288266375,
-          "stop" : 1759288266826,
-          "duration" : 451
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_skip",
-        "uid" : "ac449d3f72d591cc",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1759288266831,
-          "stop" : 1759288266831,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_book_positive",
-        "uid" : "37a49d0f1b66361f",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1759288249119,
-          "stop" : 1759288249765,
-          "duration" : 646
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_token_positive",
-        "uid" : "5a4786f81c56d156",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1759288258315,
-          "stop" : 1759288259575,
-          "duration" : 1260
+          "start" : 1761966736764,
+          "stop" : 1761966737162,
+          "duration" : 398
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,13 +23,13 @@
         "parameters" : [ ]
       }, {
         "name" : "test_creat_user_invalid_pass_negative",
-        "uid" : "820bd3ae2b79934c",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
+        "uid" : "e5ff6c7443cc9416",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
         "status" : "passed",
         "time" : {
-          "start" : 1759288254979,
-          "stop" : 1759288255417,
-          "duration" : 438
+          "start" : 1761966727586,
+          "stop" : 1761966727848,
+          "duration" : 262
         },
         "flaky" : false,
         "newFailed" : false,
@@ -90,14 +39,31 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_creat_user_possitive",
-        "uid" : "e661e7d4fdf81f17",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
+        "name" : "test_get_token_positive",
+        "uid" : "f3c3dea3cbf1079c",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
         "status" : "passed",
         "time" : {
-          "start" : 1759288252315,
-          "stop" : 1759288252318,
-          "duration" : 3
+          "start" : 1761966729932,
+          "stop" : 1761966730913,
+          "duration" : 981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "afb9eb8fe06fdb57",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1761966737167,
+          "stop" : 1761966737167,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,13 +74,47 @@
         "parameters" : [ ]
       }, {
         "name" : "test_get_token_negative",
-        "uid" : "dd9b08198bfcbd1e",
-        "parentUid" : "e0a569ee7d9fc0ca1903286967d3a92a",
+        "uid" : "33c54bb0faba0743",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
         "status" : "passed",
         "time" : {
-          "start" : 1759288262451,
-          "stop" : 1759288263643,
-          "duration" : 1192
+          "start" : 1761966733121,
+          "stop" : 1761966734244,
+          "duration" : 1123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creat_user_possitive",
+        "uid" : "53a6cb66b68d80ef",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761966724667,
+          "stop" : 1761966724670,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_book_positive",
+        "uid" : "32cc429fe6bc7455",
+        "parentUid" : "9796c6a6da6dfc6892fd1f583f507c54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1761966721959,
+          "stop" : 1761966722361,
+          "duration" : 402
         },
         "flaky" : false,
         "newFailed" : false,
@@ -124,9 +124,9 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e0a569ee7d9fc0ca1903286967d3a92a"
+      "uid" : "9796c6a6da6dfc6892fd1f583f507c54"
     } ],
-    "uid" : "270f121a01a91a44e18988e72306d8ff"
+    "uid" : "e4dcd115de0e24676f0bfb31984539e3"
   } ],
   "name" : "timeline"
 }

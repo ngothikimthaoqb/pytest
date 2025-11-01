@@ -1,70 +1,70 @@
 [ {
-  "uid" : "5d13a593c13d22e7",
-  "name" : "test_authorized_positive",
-  "time" : {
-    "start" : 1759288266375,
-    "stop" : 1759288266826,
-    "duration" : 451
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "820bd3ae2b79934c",
+  "uid" : "e5ff6c7443cc9416",
   "name" : "test_creat_user_invalid_pass_negative",
   "time" : {
-    "start" : 1759288254979,
-    "stop" : 1759288255417,
-    "duration" : 438
+    "start" : 1761966727586,
+    "stop" : 1761966727848,
+    "duration" : 262
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e661e7d4fdf81f17",
-  "name" : "test_creat_user_possitive",
+  "uid" : "86497a78ef7a3b52",
+  "name" : "test_authorized_positive",
   "time" : {
-    "start" : 1759288252315,
-    "stop" : 1759288252318,
-    "duration" : 3
+    "start" : 1761966736764,
+    "stop" : 1761966737162,
+    "duration" : 398
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dd9b08198bfcbd1e",
-  "name" : "test_get_token_negative",
-  "time" : {
-    "start" : 1759288262451,
-    "stop" : 1759288263643,
-    "duration" : 1192
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "37a49d0f1b66361f",
+  "uid" : "32cc429fe6bc7455",
   "name" : "test_get_book_positive",
   "time" : {
-    "start" : 1759288249119,
-    "stop" : 1759288249765,
-    "duration" : 646
+    "start" : 1761966721959,
+    "stop" : 1761966722361,
+    "duration" : 402
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ac449d3f72d591cc",
+  "uid" : "afb9eb8fe06fdb57",
   "name" : "test_skip",
   "time" : {
-    "start" : 1759288266831,
-    "stop" : 1759288266831,
+    "start" : 1761966737167,
+    "stop" : 1761966737167,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "5a4786f81c56d156",
+  "uid" : "33c54bb0faba0743",
+  "name" : "test_get_token_negative",
+  "time" : {
+    "start" : 1761966733121,
+    "stop" : 1761966734244,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53a6cb66b68d80ef",
+  "name" : "test_creat_user_possitive",
+  "time" : {
+    "start" : 1761966724667,
+    "stop" : 1761966724670,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3c3dea3cbf1079c",
   "name" : "test_get_token_positive",
   "time" : {
-    "start" : 1759288258315,
-    "stop" : 1759288259575,
-    "duration" : 1260
+    "start" : 1761966729932,
+    "stop" : 1761966730913,
+    "duration" : 981
   },
   "status" : "passed",
   "severity" : "normal"

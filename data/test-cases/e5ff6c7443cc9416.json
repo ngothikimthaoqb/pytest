@@ -1,12 +1,12 @@
 {
-  "uid" : "e661e7d4fdf81f17",
-  "name" : "test_creat_user_possitive",
-  "fullName" : "tests.test_user.TestUser#test_creat_user_possitive",
-  "historyId" : "cb78069efa623cfbbe61bafc3eff945a",
+  "uid" : "e5ff6c7443cc9416",
+  "name" : "test_creat_user_invalid_pass_negative",
+  "fullName" : "tests.test_user.TestUser#test_creat_user_invalid_pass_negative",
+  "historyId" : "7dd61cd9095a19bbaefd4c7ce19c4b7e",
   "time" : {
-    "start" : 1759288252315,
-    "stop" : 1759288252318,
-    "duration" : 3
+    "start" : 1761966727586,
+    "stop" : 1761966727848,
+    "duration" : 262
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,8 +18,8 @@
   "beforeStages" : [ {
     "name" : "api",
     "time" : {
-      "start" : 1759288249768,
-      "stop" : 1759288249768,
+      "start" : 1761966724676,
+      "stop" : 1761966724676,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,9 +33,9 @@
   }, {
     "name" : "user_data",
     "time" : {
-      "start" : 1759288249768,
-      "stop" : 1759288252315,
-      "duration" : 2547
+      "start" : 1761966724676,
+      "stop" : 1761966727586,
+      "duration" : 2910
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,11 +50,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "cba342189dd25819",
+      "uid" : "f299a5299e5d579e",
       "name" : "log",
-      "source" : "cba342189dd25819.txt",
+      "source" : "f299a5299e5d579e.txt",
       "type" : "text/plain",
-      "size" : 844
+      "size" : 1091
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -65,8 +65,8 @@
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1759288252318,
-      "stop" : 1759288252321,
+      "start" : 1761966727848,
+      "stop" : 1761966727851,
       "duration" : 3
     },
     "status" : "passed",
@@ -95,10 +95,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "runnervm3ublj"
+    "value" : "runnervmf2e7y"
   }, {
     "name" : "thread",
-    "value" : "2564-MainThread"
+    "value" : "2553-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,6 +122,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "SMOKE" ]
   },
-  "source" : "e661e7d4fdf81f17.json",
+  "source" : "e5ff6c7443cc9416.json",
   "parameterValues" : [ ]
 }
