@@ -1,12 +1,12 @@
 {
-  "uid" : "e5ff6c7443cc9416",
-  "name" : "test_creat_user_invalid_pass_negative",
-  "fullName" : "tests.test_user.TestUser#test_creat_user_invalid_pass_negative",
-  "historyId" : "7dd61cd9095a19bbaefd4c7ce19c4b7e",
+  "uid" : "dc198ee55612d195",
+  "name" : "test_get_token_positive",
+  "fullName" : "tests.test_user.TestUser#test_get_token_positive",
+  "historyId" : "faf75d26572e133b13d9c49970d1a423",
   "time" : {
-    "start" : 1761966727586,
-    "stop" : 1761966727848,
-    "duration" : 262
+    "start" : 1764561092828,
+    "stop" : 1764561093678,
+    "duration" : 850
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,8 +18,8 @@
   "beforeStages" : [ {
     "name" : "api",
     "time" : {
-      "start" : 1761966724676,
-      "stop" : 1761966724676,
+      "start" : 1764561090729,
+      "stop" : 1764561090729,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,9 +33,9 @@
   }, {
     "name" : "user_data",
     "time" : {
-      "start" : 1761966724676,
-      "stop" : 1761966727586,
-      "duration" : 2910
+      "start" : 1764561090729,
+      "stop" : 1764561092827,
+      "duration" : 2098
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,11 +50,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f299a5299e5d579e",
+      "uid" : "39390f42db57fa6",
       "name" : "log",
-      "source" : "f299a5299e5d579e.txt",
+      "source" : "39390f42db57fa6.txt",
       "type" : "text/plain",
-      "size" : 1091
+      "size" : 1072
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -65,9 +65,9 @@
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1761966727848,
-      "stop" : 1761966727851,
-      "duration" : 3
+      "start" : 1764561093679,
+      "stop" : 1764561093681,
+      "duration" : 2
     },
     "status" : "passed",
     "steps" : [ ],
@@ -95,10 +95,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "runnervmf2e7y"
+    "value" : "runnervmg1sw1"
   }, {
     "name" : "thread",
-    "value" : "2553-MainThread"
+    "value" : "2563-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,6 +122,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "SMOKE" ]
   },
-  "source" : "e5ff6c7443cc9416.json",
+  "source" : "dc198ee55612d195.json",
   "parameterValues" : [ ]
 }
