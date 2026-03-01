@@ -1,12 +1,12 @@
 {
-  "uid" : "186a0c8794543fa7",
+  "uid" : "8b5e61c17a9df143",
   "name" : "test_get_token_negative",
   "fullName" : "tests.test_user.TestUser#test_get_token_negative",
   "historyId" : "faffb0b087635dbd2700f3c2c04c1515",
   "time" : {
-    "start" : 1769920162043,
-    "stop" : 1769920163179,
-    "duration" : 1136
+    "start" : 1772338966120,
+    "stop" : 1772338967102,
+    "duration" : 982
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,11 +16,26 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
+    "name" : "invalid_user",
+    "time" : {
+      "start" : 1772338964129,
+      "stop" : 1772338964129,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "user_data",
     "time" : {
-      "start" : 1769920159569,
-      "stop" : 1769920162042,
-      "duration" : 2473
+      "start" : 1772338964129,
+      "stop" : 1772338966119,
+      "duration" : 1990
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,23 +48,8 @@
   }, {
     "name" : "api",
     "time" : {
-      "start" : 1769920159569,
-      "stop" : 1769920159569,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "invalid_user",
-    "time" : {
-      "start" : 1769920159569,
-      "stop" : 1769920159569,
+      "start" : 1772338964129,
+      "stop" : 1772338964129,
       "duration" : 0
     },
     "status" : "passed",
@@ -65,9 +65,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5c18222efdf14fa2",
+      "uid" : "60da8edd8be96a8f",
       "name" : "log",
-      "source" : "5c18222efdf14fa2.txt",
+      "source" : "60da8edd8be96a8f.txt",
       "type" : "text/plain",
       "size" : 1071
     } ],
@@ -80,9 +80,9 @@
   "afterStages" : [ {
     "name" : "user_data::0",
     "time" : {
-      "start" : 1769920163179,
-      "stop" : 1769920163182,
-      "duration" : 3
+      "start" : 1772338967103,
+      "stop" : 1772338967105,
+      "duration" : 2
     },
     "status" : "passed",
     "steps" : [ ],
@@ -110,10 +110,10 @@
     "value" : "TestUser"
   }, {
     "name" : "host",
-    "value" : "runnervmkj6or"
+    "value" : "runnervmnay03"
   }, {
     "name" : "thread",
-    "value" : "2713-MainThread"
+    "value" : "2727-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -137,6 +137,6 @@
     "categories" : [ ],
     "tags" : [ "REGRESSION", "SMOKE" ]
   },
-  "source" : "186a0c8794543fa7.json",
+  "source" : "8b5e61c17a9df143.json",
   "parameterValues" : [ ]
 }
